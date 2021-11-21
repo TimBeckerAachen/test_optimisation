@@ -6,8 +6,14 @@ name = "pypi"
 [packages]
 ortools = "*"
 pytest = "*"
+black = "*"
+pylint = "*"
+pytest-cov = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true

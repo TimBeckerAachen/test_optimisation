@@ -4,6 +4,11 @@ from ortools.linear_solver import pywraplp
 
 
 def mip_hello_world():
+    """
+    simple MIP example
+
+    :return: set of ints, final values after optimisation
+    """
     # mip solver with SCIP backend
     solver = pywraplp.Solver.CreateSolver('SCIP')
 

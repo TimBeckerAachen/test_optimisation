@@ -1,4 +1,4 @@
-name: CI
+name: CI-Pipeline pyhton 3.9.8
 
 # Controls when the workflow will run
 on:

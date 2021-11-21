@@ -1,7 +1,6 @@
 install:
 	pip install --upgrade pip
-	pip install pipenv
-	pipenv install
+	pip install -r requirements.txt
 
 format:
 	black src/*.py
